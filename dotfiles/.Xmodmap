@@ -1,0 +1,7 @@
+keycode 72 = XF86MonBrightnessDown NoSymbol XF86MonBrightnessDown
+keycode 73 = XF86MonBrightnessUp NoSymbol XF86MonBrightnessUp
+keycode  74 = XF86AudioMute NoSymbol XF86AudioMute
+keycode  75 = XF86AudioLowerVolume NoSymbol XF86AudioLowerVolume
+keycode  76 = XF86AudioRaiseVolume NoSymbol XF86AudioRaiseVolume
+keycode 108 = Hangul NoSymbol Hangul
+keycode 124 = XF86PowerOff NoSymbol XF86PowerOff
