@@ -15,5 +15,9 @@ PWM fan control is not working, but it is still available to control using [`ect
 ```bash
 $ git clone https://aur.archlinux.org/ectool-samus-git.git ectool
 $ cd ectool && makepkg -si
+
+# Control fan using ectool
+$ ectool fanduty <0-100>
+$ ectool autofanctrl
 ```
 
