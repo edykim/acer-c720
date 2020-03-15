@@ -5,7 +5,7 @@ This is a gist note for my Acer C720.
 ## Hardware
 
 - [Heatsink Fan CPU Cooler 60.SHEN7.005](https://www.amazon.com/gp/product/B00Q3K41VA/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1)
-  - If you replace cooler, you will need a thermal compound paste.
+  - If you want to replace a cooler, you will need a thermal compound paste.
 - [B116XAN04.0 IPS Screen](https://s.click.aliexpress.com/e/_dULI1rF)
 - [KingSpec M.2 2242 NGFF SSD](https://s.click.aliexpress.com/e/_dTuxVuV)
 
