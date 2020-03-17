@@ -1,4 +1,9 @@
 /* See LICENSE file for copyright and license details. */
+/**
+ * applied patches
+ *
+ * dwm-colorbar-6.2.diff
+ */
 #include <X11/XF86keysym.h>
 
 /* appearance */
@@ -8,16 +13,28 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "monospace:size=8" };
 static const char dmenufont[]       = "monospace:size=8";
-static const char col_gray0[]       = "#111111";
-static const char col_gray1[]       = "#222222";
+// static const char col_gray0[]       = "#111111";
+// static const char col_gray1[]       = "#222222";
+// static const char col_gray2[]       = "#444444";
+// static const char col_gray3[]       = "#bbbbbb";
+// static const char col_gray4[]       = "#eeeeee";
+// static const char col_cyan[]        = "#005577";
+static const char col_black[]       = "#000000";
+static const char col_gray0[]       = "#1a1b23";
+static const char col_gray1[]       = "#1a1b23";
 static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
+static const char col_gray3[]       = "#f8f8f2";
 static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#005577";
+static const char col_cyan[]        = "#282a36";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_gray0, col_gray0 },
+	[SchemeNorm] = { col_gray3, col_gray1, col_gray0 },
+	[SchemeSel] = { col_gray4, col_black, col_gray0 },
+	[SchemeStatus] = { col_gray3, col_gray1, col_gray0 },
+	[SchemeTagsNorm] = { col_gray3, col_gray1, col_gray0 },
+	[SchemeInfoNorm] = { col_gray3, col_gray1, col_gray0 },
+	[SchemeTagsSel] = { col_gray4, col_black, col_gray0 },
+	[SchemeInfoSel] = { col_gray3, col_gray1, col_gray0 },
 };
 
 /* tagging */
@@ -66,7 +83,6 @@ static const char *audioupcmd[] = {"amixer", "-q", "sset", "Master", "10%+"};
 static const char *audiodowncmd[] = {"amixer", "-q", "sset", "Master", "10%-"};
 static const char *audiotogglecmd[] = {"amixer", "-q", "sset", "Master", "toggle"};
 static const char *shutdowncmd[] = {"shutdown", "now"};
-
 // need xorg-xbacklight
 static const char *brupcmd[] = {"xbacklight", "-inc", "10"};
 static const char *brdowncmd[] = {"xbacklight", "-dec", "10"};
