@@ -3,6 +3,6 @@ export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 fcitx -d
 dwmStatus &
-xsetroot -bg "#aaaaaa"
+xsetroot -solid "#1a1b23"
 xinput set-prop 9 305 1
 
